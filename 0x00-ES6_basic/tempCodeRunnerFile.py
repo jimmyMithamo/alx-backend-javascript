@@ -13,3 +13,8 @@ def pascal_triangle(n):
     
     return triangle
 
+# Example usage:
+n = 5
+triangle = pascal_triangle(n)
+for row in triangle:
+    print(row)
